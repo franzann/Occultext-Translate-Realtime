@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Occultext Translate Realtime",
-    "version": "4.0",
+    "version": "4.3",
     "permissions": ["activeTab", "webRequest", "<all_urls>"],
     "background": {
       "scripts": ["background.js"],

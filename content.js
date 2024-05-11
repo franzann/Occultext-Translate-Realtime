@@ -1,9 +1,9 @@
 function translateWords() {
   var bodyText = document.body.innerText;
-  var matches = bodyText.match(/<oct>(.*?)<\/oct>/g);
-  if (matches) {
-    matches.forEach(function(match) {
-      var word = match.slice(5, -6);
+  var matches = bodyText.match(/\{(.*?)\}/g);
+if (matches) {
+  matches.forEach(function(match) {
+    var word = match.slice(1, -1);
       chrome.runtime.sendMessage({ action: "translateWord", word: word }, function(response) {
         if (response && response.original) {
           var elements = document.body.getElementsByTagName('*');
