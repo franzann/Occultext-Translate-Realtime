@@ -16,7 +16,7 @@ Magic! Joke. (O DIBA MAGIC GYUD SIYA?) Here's how it really works:
 
 ## How to Use It?
 
-Easy peasy! Just download the extension zip file in the release tab then extract it, then go to chrome extension then enable developer mode. After that, click load unpacked then select the extracted folder and let us do our thing. We'll automatically translate words wrapped in `h` on every webpage you visit. And don't worry, we've got you covered when you scroll or when the webpage's content changes. It's like having a translator right there with you, whispering the translations in your ear!
+Easy peasy! Just download the extension zip file in the release tab then extract it, then go to chrome extension then enable developer mode. After that, click load unpacked then select the extracted folder and let us do our thing. We'll automatically translate words wrapped in `{}` on every webpage you visit. And don't worry, we've got you covered when you scroll or when the webpage's content changes. It's like having a translator right there with you, whispering the translations in your ear!
 
 ## Permissions
 
